@@ -5,8 +5,7 @@ import DeckGL from '@deck.gl/react';
 import {TerrainLayer} from '@deck.gl/geo-layers';
 
 // Set your mapbox token here
-const MAPBOX_TOKEN = "pk.eyJ1IjoiamVyZW15dmluZWMiLCJhIjoiY2s4bjYwaW92MDV5bTNtbHZ3MXk1cWd3byJ9.DO1P9_sMp80Lotr5AU8MCg"
-// const MAPBOX_TOKEN = process.env.MapboxAccessToken; // eslint-disable-line
+const MAPBOX_TOKEN = process.env.REACT_APP_MAPBOX_ACCES_TOKEN; // eslint-disable-line
 
 const INITIAL_VIEW_STATE = {
   latitude: 46.24,
